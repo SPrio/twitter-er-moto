@@ -24,6 +24,10 @@
 
 ## Description
 
+This is a Twitter backend Clone.
+
+Insipired by the [Open Source Project](https://github.com/scaleracademy/open-source-projects/discussions/81) by [Scaler Academy](https://www.scaler.com/)
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Project setup
