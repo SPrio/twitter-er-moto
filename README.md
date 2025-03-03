@@ -22,9 +22,11 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+### Kind Of Twitter
+
 ## Description
 
-This is a Twitter backend Clone.
+This is a Twitter backend Clone. A Backend API using Nest Framework (NodeJS + TypeScript + PostgreSQL)
 
 Insipired by the [Open Source Project](https://github.com/scaleracademy/open-source-projects/discussions/81) by [Scaler Academy](https://www.scaler.com/)
 
