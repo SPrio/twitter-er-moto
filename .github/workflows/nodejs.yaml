@@ -16,14 +16,20 @@ jobs:
         node-version: ['18.x', '20.x']
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@0609f0983b7a228f052f81ef4c3d6510cae254ad
-        with:
-          version: 6.10.0
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
-      - run: pnpm install
-      - run: pnpm test
+
+      - name: Install pnpm
+        run: |
+          npm install -g pnpm
+          pnpm --version
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run tests
+        run: pnpm test
