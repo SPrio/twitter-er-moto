@@ -28,6 +28,9 @@
 
 This is a Twitter backend Clone. A Backend API using Nest Framework (NodeJS + TypeScript + PostgreSQL)
 
+![NodeJS Workflow](https://github.com/SPrio/twitter-er-moto/actions/workflows/nodejs.yaml/badge.svg)
+
+
 Insipired by the [Open Source Project](https://github.com/scaleracademy/open-source-projects/discussions/81) by [Scaler Academy](https://www.scaler.com/)
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
