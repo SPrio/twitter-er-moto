@@ -44,7 +44,7 @@ export class UsersController {
     return `get followers of user`;
   }
 
-  @Get('/:userId/followers')
+  @Get('/:userId/followees')
   getFollowees(@Param() params): string {
     // TODO
     return `get followees of user`;
